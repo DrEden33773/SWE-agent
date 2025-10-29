@@ -103,7 +103,7 @@ def main(args: list[str] | None = None):
 
         convert_traj_to_demo_main(remaining_args)
     elif command == "run-api":
-        from sweagent.api.server import run_from_cli as run_api_main
+        from sweagent.api.server import run_from_cli as run_api_main  # pyright: ignore[reportMissingImports]
 
         run_api_main(remaining_args)
     elif command == "merge-preds":
