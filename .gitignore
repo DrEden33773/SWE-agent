@@ -1,3 +1,6 @@
+# personal config
+config/personal/**
+
 keys.yaml
 .swe-agent-human-history
 .vscode/**
