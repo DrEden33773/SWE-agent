@@ -115,7 +115,6 @@ and set `agent.model.api_key` to the key you've configured for your proxy (or a 
 
     Please also make sure to set `max_input_tokens` to a non-`None` value to avoid other warnings.
 
-
 !!! warning "Parsing functions"
 
     The default config uses function calling to retrieve actions from the model response, i.e.,
@@ -143,7 +142,6 @@ and set `agent.model.api_key` to the key you've configured for your proxy (or a 
   line should be deleted or commented out).
   Also see [this issue](https://github.com/SWE-agent/SWE-agent/issues/467)
   for reference.
-
 
 ## Further reads & debugging
 
