@@ -1,5 +1,5 @@
-# personal config
-config/personal/**
+# private config
+config/private/**
 
 keys.yaml
 .swe-agent-human-history
