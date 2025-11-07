@@ -63,6 +63,7 @@ dependencies = [
     "textual>=1.0.0",
     "requests",
     "sb-cli>=0.1.5",
+    "boto3>=1.40.68",
 ]
 
 [project.scripts]
